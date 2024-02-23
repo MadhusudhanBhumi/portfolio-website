@@ -1,9 +1,8 @@
 "use client";
 
-import React from "react";
-import SectionHeading from "./section-heading";
-import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import { motion } from "framer-motion";
+import SectionHeading from "./section-heading";
 
 export default function About() {
   const { ref } = useSectionInView("About");
@@ -20,11 +19,10 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
+        <span className="font-medium">Computer Engineering</span>, The journey began when I immersed myself in a coding bootcamp, focusing intensively on {" "}
+        <span className="font-medium">web development</span>.{" "}
+        <span className="italic">The aspect of programming that I find most exhilarating </span> 
+        is the problem-solving component. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
